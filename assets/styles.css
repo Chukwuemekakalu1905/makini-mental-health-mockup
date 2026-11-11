@@ -923,3 +923,32 @@ textarea:focus {
     overflow: hidden;
   }
 }
+
+
+.header-hours {
+  display: block;
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+@media (max-width: 959px) {
+  .header-hours {
+    padding: 0.55rem 0.4rem 0.75rem;
+    border-bottom: 1px solid var(--bg-soft);
+  }
+}
+
+@media (min-width: 960px) {
+  .header-hours {
+    margin-right: 0.15rem;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1179px) {
+  .header-hours {
+    display: none;
+  }
+}
